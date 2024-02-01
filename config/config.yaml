@@ -1,0 +1,10 @@
+# data Ingestion related configuration, whenever traiing pipeline is run, that will create a file named artifacts and everything is stored in there
+
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/VeldiBharath/Certificates/raw/main/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
